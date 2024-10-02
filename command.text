@@ -16,3 +16,8 @@ kubectl get all
 kubectl delete deployments client-deployment
 kubectl get all
 kubectl apply -f .   //รันทั้งหมดพร้อมกัน
+
+kubectl logs mongo-deployment-7c76b79684-j6lj2 
+http://localhost:30001/
+http://localhost:30002/api/health
+http://localhost:30002/api/todo
